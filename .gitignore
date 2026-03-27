@@ -1,0 +1,4 @@
+mon_env/
+data/
+*.zip
+*.db    
