@@ -1,4 +1,4 @@
-mon_env/
+.venv/
 data/
 *.zip
-*.db    
+*.db
