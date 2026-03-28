@@ -16,7 +16,7 @@ Le projet est divisé en 4 grandes étapes techniques, consultables dans les dos
 1. **Extraction & Requêtage (SQL) :** Création d'une base de données locale (`SQLite`) et requêtes analytiques sur les profils des conducteurs et les types de contrats.
 2. **Exploration & Dataviz (Python / EDA) :** Analyse bivariée et multivariée (Matrice de corrélation) avec `Pandas`, `Matplotlib` et `Seaborn`.
 3. **Machine Learning (Scikit-Learn) :** Entraînement de modèles de classification pour prédire la fraude.
-4. **Dashboard Business (PowerBI) :** *[En cours de construction]* Restitution visuelle pour le top management.
+4. **Dashboard Business (PowerBI) :** Restitution visuelle pour le top management.
 
 ## 🚀 Résultats de la Modélisation (Machine Learning)
 
@@ -39,18 +39,18 @@ Grâce à l'ajustement du seuil de décision, le modèle agit désormais comme u
   - `03_Machine_Learning.ipynb` : Modélisation Random Forest & SMOTE.
 - `/dashboard` : Livrables PowerBI.
 
-## 📊 Executive Dashboard (Power BI)
-To make the findings accessible to non-technical stakeholders, an Executive Summary dashboard was built using Power BI. 
+## 📊 Tableau de Bord Exécutif (Power BI)
+Afin de rendre les résultats de l'algorithme accessibles au Top Management et aux parties prenantes non techniques, un dashboard "Executive Summary" a été conçu sur Power BI. 
 
-**Key Features:**
-* High-level KPIs (Total Claims, Fraudulent Claims, Fraud Rate).
-* Fraud distribution by Vehicle Category and Fault.
-* Temporal evolution of fraud cases.
+**Fonctionnalités clés :**
+* Indicateurs de performance globaux (KPIs) : Total des dossiers, Nombre de sinistres frauduleux, Taux de fraude moyen.
+* Profilage métier : Répartition de la fraude par catégorie de véhicule et par responsabilité lors du sinistre.
+* Analyse de la saisonnalité : Évolution temporelle des cas de fraude mois par mois.
 
-![Power BI Dashboard Preview](dashboard/dashboard_preview.png)
+![Aperçu du Dashboard Power BI](dashboard/dashboard_preview.png)
 
-* 📄 [View the static PDF version](dashboard/insurance_fraud_dashboard.pdf)
-* 🛠️ [Download the interactive .pbix file](dashboard/insurance_fraud_dashboard.pbix)
+* 📄 [Consulter la version PDF statique](dashboard/insurance_fraud_dashboard.pdf)
+* 🛠️ [Télécharger le fichier interactif .pbix (Power BI Desktop)](dashboard/insurance_fraud_dashboard.pbix)
 
 ---
 *👤 Projet réalisé par **Ilyes H** | Data Analyst Junior | Disponible immédiatement.*
