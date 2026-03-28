@@ -39,5 +39,18 @@ Grâce à l'ajustement du seuil de décision, le modèle agit désormais comme u
   - `03_Machine_Learning.ipynb` : Modélisation Random Forest & SMOTE.
 - `/dashboard` : Livrables PowerBI.
 
+## 📊 Executive Dashboard (Power BI)
+To make the findings accessible to non-technical stakeholders, an Executive Summary dashboard was built using Power BI. 
+
+**Key Features:**
+* High-level KPIs (Total Claims, Fraudulent Claims, Fraud Rate).
+* Fraud distribution by Vehicle Category and Fault.
+* Temporal evolution of fraud cases.
+
+![Power BI Dashboard Preview](dashboard/dashboard_preview.png)
+
+* 📄 [View the static PDF version](dashboard/insurance_fraud_dashboard.pdf)
+* 🛠️ [Download the interactive .pbix file](dashboard/insurance_fraud_dashboard.pbix)
+
 ---
 *👤 Projet réalisé par **Ilyes H** | Data Analyst Junior | Disponible immédiatement.*
